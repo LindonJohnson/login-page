@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  align-items: center;
+}
+
+body {
+  font-size: 62.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 15.625rem;
+  height: 2.5625rem;
+
+  margin: 8.25rem 5.75rem 6.12rem 4rem;
+}
+
+form {
+  display: grid;
+  align-items: center;
+}
+
+input {
+  width: 18.25rem;
+  height: 2.6875rem;
+  margin-left: 3.88rem;
+  margin-bottom: 1.88rem;
+
+  border-radius: 1.25rem;
+  background: white;
+  box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+  border-style: none;
+}
+.button {
+  width: 9.625rem;
+  height: 2.125rem;
+  margin: 3.56rem 9.25rem 9.44rem 8.19rem;
+  border-radius: 1.25rem;
+  background: #4298e8;
+  color: white;
+
+  box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+}
+::placeholder {
+  padding: 2.94rem;
+}
+
+svg {
+  margin: 7.31rem;
+}
+div {
+  background: #4298e8;
+  width: 63.8125rem;
+  height: 39.4375rem;
+}
